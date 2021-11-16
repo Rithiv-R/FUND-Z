@@ -415,12 +415,15 @@ figure.snip0013:hover > div::before {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  background: url('img/profile.jpg') no-repeat center / cover;
+  background: url('https://static.india.com/wp-content/uploads/2021/05/g.jpg') no-repeat center / cover;
   border: 4px solid #00d8fe;
   margin-bottom: 2px;
   overflow: hidden;
   cursor: pointer;
 }
+
+
+
 
 .image .hover{
   position: absolute;
@@ -1184,6 +1187,191 @@ margin-top: 0%;
   color: var(--dark);
   font-size: 18px;
   line-height: 1.4;
+}
+
+.main1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main1 .image1{
+  position: relative;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: url('images/start-up/chills.png') no-repeat center / cover;
+  border: 4px solid #00d8fe;
+  margin-bottom: 2px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image1 .hover1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(79, 172, 254, .7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: .5s;
+  opacity: 0;
+}
+
+.image:hover1 .hover1{
+  opacity: 1;
+}
+
+.hover1.active{
+  opacity: 1;
+}
+.main2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main2 .image2{
+  position: relative;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: url('images/start-up/techno.jpg') no-repeat center / cover;
+  border: 4px solid #00d8fe;
+  margin-bottom: 2px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image2 .hover2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(79, 172, 254, .7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: .5s;
+  opacity: 0;
+}
+
+.image:hover2 .hover2{
+  opacity: 1;
+}
+
+.hover2.active{
+  opacity: 1;
+}
+.main3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main3 .image3{
+  position: relative;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: url('images/start-up/Cloud_kitchen.jpg') no-repeat center / cover;
+  border: 4px solid #00d8fe;
+  margin-bottom: 2px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image3 .hover3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(79, 172, 254, .7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: .5s;
+  opacity: 0;
+}
+
+.image:hover3 .hover3{
+  opacity: 1;
+}
+
+.hover3.active{
+  opacity: 1;
+}
+.main4{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main4 .image4{
+  position: relative;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: url('images/start-up/Cloud_kitchen.jpg') no-repeat center / cover;
+  border: 4px solid #00d8fe;
+  margin-bottom: 2px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image4 .hover4{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(79, 172, 254, .7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: .5s;
+  opacity: 0;
+}
+
+.image:hover4 .hover4{
+  opacity: 1;
+}
+
+.hover4.active{
+  opacity: 1;
 }
 
 
